@@ -1,6 +1,6 @@
 # Welcome to 2D_3D_CV!
 ### Firstly, what is this about? 
-This study looked at different CNN architectures. Specifically, I developed two experiments in parallel of 3x CNN models to compare 2D vs 3D performance metrics when diagnosing/classifying chest CT scans. 
+This is a small computer vision study comparing 2D vs 3D CNN architectures in classifying lung disease (TB) from chest CT scans. More specifically, I compare three CNN models of increasing complexity (baseline, + batch normalisation, ++ more layers) in two parallel experiments, 2D and 3D equivalents. In the end, I compared 6 in-house designed CNN's, and out of curiosity also included a RESNET50 transfer learning model.
 
 ### The contents include: 
 - **Python Scripts & Notebook**: Python scripts & notebooks!
@@ -9,4 +9,4 @@ This study looked at different CNN architectures. Specifically, I developed two 
   - **MosMedCT_EDA.ipynb**: Exploratory analysis and pre-processing of this CT dataset.
   - **Run_Models.ipynb**: Sagemaker notebook to deploy all these models in an EC2 instance in AWS.
 - **README.md**: Hello, you're reading me.
-- **Report.pdf**: An academic-style report explaining the motivation of the study and reporting the results (spoiler alert, 3D wins, but the final outcome may still surprise you!). 
+- **Report.pdf**: An academic-style report explaining the motivation of the study and reporting the results. Spoiler alert, 3D wins, but the final results may still surprise you, so I encourage you to have a look at the pdf report. 
